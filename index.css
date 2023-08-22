@@ -1,0 +1,69 @@
+.header {
+    overflow: hidden;
+    background-color: green;
+    padding: 20px 10px;
+}
+
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+.header a:hover{
+    background-color: white;
+    color:black;    
+}
+
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.header-right {
+    float: right;
+    padding-right: 100px;
+  }
+  
+
+
+
+  .container {
+    background-image: url(images/IMG_8165.jpg);
+    background-size:50%, 600px;
+    background-repeat:repeat;
+    height: 500px;
+    position: relative;
+    border: 3px solid green;
+  }
+  
+  .center {
+    margin: 0;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: green;
+    color: white;
+    width: 400px;
+    height: 70px;
+    text-align: center;
+    font-size:50px;
+    border-radius: 10px;
+  }
+
+  .center:hover{
+    background-color: white;
+    color:black;    
+}
